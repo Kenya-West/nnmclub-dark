@@ -1,33 +1,46 @@
 a.topictitle:link {
     text-decoration: none;
-    color: #2b4157;
+    color: #AAA;
 }
+
 a.topictitle:visited {
-    color: #9DB7D2;
+    color: #CCC;
 }
+
+a.topicpremod:visited,
+a.topicpremod:link {
+    color: #AAA;
+}
+
 a:hover {
     text-decoration: none;
     color: #3D68C5;
 }
+
 hr {
     height: 0;
     border: 1px dotted #D5E0EC;
     border-top-width: 1px;
     border-bottom-width: 0;
 }
+
 .prow2 {
-    background-color: #FFFFFF;
+    background-color: #060606;
 }
+
 .prow1 {
-    background-color: #FAFDFF;
+    background-color: #060606;
 }
+
 .forumline td {
     padding: 0px 5px;
 }
+
 .forumline.tablesorter tr:hover {
-    background-color: #EAEFFF;
-    color: #3D68C5;
+    background-color: #060606;
+    color: #FFF;
 }
+
 fieldset {
     display: block;
     -webkit-margin-start: 2px;
@@ -36,7 +49,7 @@ fieldset {
     -webkit-padding-start: 0.75em;
     -webkit-padding-end: 0.75em;
     -webkit-padding-after: 0.625em;
-    border: 1px solid #EEEEEE;
+    border: 1px solid #060606;
     border-image-source: initial;
     border-image-slice: initial;
     border-image-width: initial;
@@ -44,157 +57,198 @@ fieldset {
     border-image-repeat: initial;
     min-width: -webkit-min-content;
 }
+
 legend {
-    color: #7A7A94;
+    color: #CCC;
 }
+
 .pcatHead {
-    background-color: #6699CC;
     background-image: none;
     border-radius: 2px;
     height: 36px;
     padding: 3px 0px 2px 10px;
 }
+
 form#search_form table:nth-last-child(1) {
     padding: 15px 0px;
 }
+
 .pgenmed {
     font-size: 14px;
     text-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.32);
     font-family: Arial;
     color: #FFFFFF;
 }
+
 a.pgenmed:hover {
     color: #FFFFFF;
     text-shadow: 0px 0px 25px rgba(255, 255, 255, 1), 0px 0px 25px rgba(255, 255, 255, 1), 1px 1px 0px rgba(0, 0, 0, 0.47);
     transition: All 0.2s cubic-bezier(.11, 0, .02, 1);
     text-decoration: none;
 }
+
 a.pgenmed {
     transition: All 2s cubic-bezier(.11, 0, .02, 1);
 }
+
 td.genmed {
     max-width: 650px;
     position: relative;
 }
+
 td.genmed img {
     position: absolute;
     right: 0;
     top: 10px;
 }
+
 .genmed a b {
     padding: 10px 0;
     width: 97%;
     display: block;
     float: left;
 }
+
 .opened {
     font-size: 10px;
     margin-top: -10px;
     display: inline-block;
 }
+
 .substr {
     padding-top: 2px;
 }
+
 th,
 .top {
     color: #FFF;
     font-size: 9pt;
     font-weight: bold;
     background-image: none;
-    background-color: #69c;
+    background-color: #222;
 }
+
 div#CGCandy377 {
     display: none;
 }
+
 td.copyright br {
     display: none;
 }
+
 table.forumline td.tablesorter td.genmed {
     min-width: 520px;
 }
+
 table.forumline tbody tr td.row1 {
-    background-color: #FFFFFF;
+    background-color: #060606;
     border-radius: 3px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
     z-index: 999;
     position: relative;
     padding-top: 10px;
 }
+
 td.cat,
 td.catHead,
 td.catSides,
 td.catLeft,
 td.catRight,
 td.catBottom {
-    background-color: #eeeeee;
+    background-color: #060606;
 }
+
 td.row1 table tbody tr td.row1 {
     border-radius: 0px;
     box-shadow: none;
     z-index: 999;
     position: relative;
 }
+
 table.forumline.tablesorter {
     border-radius: 3px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
     margin-bottom: 10px;
     overflow: hidden;
 }
+
 table.forumline.tablesorter tfoot {
     display: none;
 }
+
 td.catHead {
     display: none;
 }
+
 .copyright table {
     display: none;
 }
+
 .nav a[HREF *="index.php"] {
     margin: 0;
     padding: 0;
     background-color: inherit;
 }
+
 .nav {
     font-weight: bold;
     font-size: 9pt;
     color: #fff;
     text-decoration: none;
 }
+
 .nav b {
-    background-color: #6699CC;
+    background-color: #222;
     padding: 8px 16px;
     margin: 0px 5px;
     border-radius: 3px;
     color: #FFF;
 }
-span.nav > b {
+
+span.nav>b {
     color: #fff;
 }
+
 span.nav:nth-last-of-type(1) b:only-of-type {
     margin-left: -12px;
     margin-right: 10px;
 }
+
 [nowrap='nowrap'] span.nav {
     color: #EEE;
 }
+
 span.nav {
     color: #BDBDBD;
 }
+
 span.nav a {
-    color: #6699CC;
     padding: 8px 16px;
-    background-color: #FFF;
+    background-color: #060606;
     border-radius: 3px;
     transition: all 0.3s ease;
     text-decoration: none;
     margin-left: -12px;
     margin-right: 10px;
 }
+
 span.nav a:last-child {
     margin-right: 0px;
 }
+
 span.nav a:hover {
     color: #fff;
-    background-color: #7BACDC;
     transition: all 0.2 ease;
+}
+
+optgroup {
+    background-color: #060606;
+}
+
+span[title='Платиновая раздача']>img {
+    content: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CjxnPgoJPGc+CgkJPHBvbHlnb24gcG9pbnRzPSIzODkuNTY1LDIwNS45MTMgMzg5LjU2NSwxNzIuNTIyIDMwMC41MjIsMTcyLjUyMiAzMDAuNTIyLDMzOS40NzggMzg5LjU2NSwzMzkuNDc4IDM4OS41NjUsMzA2LjA4NyAgICAgMzMzLjkxMywzMDYuMDg3IDMzMy45MTMsMjcyLjY5NiAzODkuNTY1LDI3Mi42OTYgMzg5LjU2NSwyMzkuMzA0IDMzMy45MTMsMjM5LjMwNCAzMzMuOTEzLDIwNS45MTMgICAiIGZpbGw9IiM5MURDNUEiLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwb2x5Z29uIHBvaW50cz0iMTAwLjE3NCwyMDUuOTEzIDEwMC4xNzQsMTcyLjUyMiAwLDE3Mi41MjIgMCwzMzkuNDc4IDMzLjM5MSwzMzkuNDc4IDMzLjM5MSwyNzIuNjk2IDEwMC4xNzQsMjcyLjY5NiAgICAgMTAwLjE3NCwyMzkuMzA0IDMzLjM5MSwyMzkuMzA0IDMzLjM5MSwyMDUuOTEzICAgIiBmaWxsPSIjOTFEQzVBIi8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cG9seWdvbiBwb2ludHM9IjUxMiwyMDUuOTEzIDUxMiwxNzIuNTIyIDQyMi45NTcsMTcyLjUyMiA0MjIuOTU3LDMzOS40NzggNTEyLDMzOS40NzggNTEyLDMwNi4wODcgNDU2LjM0OCwzMDYuMDg3ICAgICA0NTYuMzQ4LDI3Mi42OTYgNTEyLDI3Mi42OTYgNTEyLDIzOS4zMDQgNDU2LjM0OCwyMzkuMzA0IDQ1Ni4zNDgsMjA1LjkxMyAgICIgZmlsbD0iIzkxREM1QSIvPgoJPC9nPgo8L2c+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTEzMy41NjUsMTcyLjUyMnYxNjYuOTU3aDMzLjM5MXYtNjYuNzgzaDMzLjM5MXYzMy4zOTFoMzMuMzkxdi0zMy4zOTFIMjU2VjE3Mi41MjJIMTMzLjU2NXogTTIyMi42MDksMjM5LjMwNGgtNTUuNjUyICAgIHYtMzMuMzkxaDU1LjY1MlYyMzkuMzA0eiIgZmlsbD0iIzkxREM1QSIvPgoJPC9nPgo8L2c+CjxnPgoJPGc+CgkJPHJlY3QgeD0iMjMzLjczOSIgeT0iMzA2LjA4NyIgd2lkdGg9IjMzLjM5MSIgaGVpZ2h0PSIzMy4zOTEiIGZpbGw9IiM5MURDNUEiLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K);
+}
+
+span[title='Золотая раздача']>img {
+    content: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDQ0IDQ0IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA0NCA0NCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCI+CiAgPHBhdGggZD0ibTIyLDBjLTEyLjIsMC0yMiw5LjgtMjIsMjJzOS44LDIyIDIyLDIyIDIyLTkuOCAyMi0yMi05LjgtMjItMjItMjJ6bTEyLjcsMTUuMWwwLDAtMTYsMTYuNmMtMC4yLDAuMi0wLjQsMC4zLTAuNywwLjMtMC4zLDAtMC42LTAuMS0wLjctMC4zbC03LjgtOC40LS4yLS4yYy0wLjItMC4yLTAuMy0wLjUtMC4zLTAuN3MwLjEtMC41IDAuMy0wLjdsMS40LTEuNGMwLjQtMC40IDEtMC40IDEuNCwwbC4xLC4xIDUuNSw1LjljMC4yLDAuMiAwLjUsMC4yIDAuNywwbDEzLjQtMTMuOWgwLjFjMC40LTAuNCAxLTAuNCAxLjQsMGwxLjQsMS40YzAuNCwwLjMgMC40LDAuOSAwLDEuM3oiIGZpbGw9IiNGRkRBNDQiLz4KPC9zdmc+Cg==);
 }

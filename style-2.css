@@ -153,7 +153,7 @@
     }
 
     a:hover {
-        color: #168AFF
+        color: #168AFF !important
     }
 
     a:link,
@@ -220,12 +220,12 @@
         color: #FFF;
         transition: all 0.2s ease; */
         border: solid 3px #222;
-        background-color: #000;
+        background-color: #060606;
     }
 
     input.mbutton:hover {
-        border: solid 3px #222;
-        background: #000 !important;
+        border: solid 3px #060606;
+        background: #222;
         transition: all 0.2s ease;
     }
 
@@ -337,7 +337,7 @@
 
     table.menutable tbody tr td table tbody tr td input {
         BORDER: NONE;
-        background: #000;
+        background: #060606;
         transition: All 0.3s cubic-bezier(.11, 0, .02, 1);
         position: absolute;
         left: 5px;
@@ -346,14 +346,14 @@
     }
 
     table.menutable tbody tr td table tbody tr td input:focus {
-        background: #000;
+        background: #060606;
         ;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
         transition: All 0.3s cubic-bezier(.11, 0, .02, 1);
     }
 
     table.menutable tbody tr td table tbody tr td input:hover {
-        background: #000;
+        background: #060606;
         transition: All 0.3s cubic-bezier(.11, 0, .02, 1);
     }
 
@@ -405,7 +405,7 @@
     .pline {
         border: 0px;
         border-radius: 2px;
-        background-color: #000;
+        background-color: #060606;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
         padding: 0 15px 7px;
     }
@@ -423,7 +423,7 @@
     }
 
     .pcatHead {
-        background-color: #000;
+        background-color: #060606;
         background-image: none !important;
         border-radius: 2px;
         height: inherit;
@@ -513,12 +513,12 @@
     }
 
     table.pline tbody tr td.row1 {
-        background-color: #000;
+        background-color: #060606;
     }
 
     input.post,
     textarea.post {
-        background-color: #000;
+        background-color: #060606;
         border: 3px solid #222;
         border-radius: 2px;
         padding: 3px 5px;
@@ -535,7 +535,7 @@
     input,
     textarea,
     select {
-        background-color: #000;
+        background-color: #060606;
         border: 3px solid #222;
         color: #FFF;
         padding: 2px 5px;
@@ -570,7 +570,7 @@
     span.gen select:focus,
     span.gen input:focus {
         padding: 6px 5px;
-        /* border: 3px solid #000; */
+        /* border: 3px solid #060606; */
         box-shadow: 0px 2px 6px 0px rgba(50, 50, 50, 0.4);
         transition: All 0.3s cubic-bezier(.11, 0, .02, 1);
     }
@@ -607,12 +607,12 @@
     }
 
     .forumline {
-        background-color: #555555 !important;
+        background-color: #060606 !important;
         border-collapse: collapse;
     }
 
     hr {
-        border: solid #555555;
+        border: solid #060606;
         border-top-width: 1px;
         border-bottom-width: 0;
     }
@@ -664,4 +664,48 @@
 
     img.pims {
         filter: grayscale(1);
+    }
+
+    /* Calenadar widget */
+
+    #datepicker .ui-widget-content,
+    #datepicker .ui-widget-header,
+    #datepicker .ui-state-default,
+    #datepicker .ui-widget-content .ui-state-default {
+        background: #060606;
+        color: #FFF;
+        border: none;
+    }
+
+    #datepicker th,
+    #datepicker .top {
+        color: #FFF;
+        background: #060606;
+    }
+
+    #datepicker .ui-state-highlight,
+    #datepicker .ui-widget-content .ui-state-highlight {
+        background-color: #444;
+    }
+
+    .ui-tooltip-blue .ui-tooltip-content {
+        background: #222;
+    }
+
+    .ui-tooltip-blue .ui-tooltip-titlebar,
+    .ui-tooltip-blue .ui-tooltip-content {
+        border: none;
+        color: #FFF;
+    }
+
+    .pline tr:nth-child(2)>td:nth-child(1) img[title='Платиновая раздача'] {
+        content: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CjxnPgoJPGc+CgkJPHBvbHlnb24gcG9pbnRzPSIzODkuNTY1LDIwNS45MTMgMzg5LjU2NSwxNzIuNTIyIDMwMC41MjIsMTcyLjUyMiAzMDAuNTIyLDMzOS40NzggMzg5LjU2NSwzMzkuNDc4IDM4OS41NjUsMzA2LjA4NyAgICAgMzMzLjkxMywzMDYuMDg3IDMzMy45MTMsMjcyLjY5NiAzODkuNTY1LDI3Mi42OTYgMzg5LjU2NSwyMzkuMzA0IDMzMy45MTMsMjM5LjMwNCAzMzMuOTEzLDIwNS45MTMgICAiIGZpbGw9IiM5MURDNUEiLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwb2x5Z29uIHBvaW50cz0iMTAwLjE3NCwyMDUuOTEzIDEwMC4xNzQsMTcyLjUyMiAwLDE3Mi41MjIgMCwzMzkuNDc4IDMzLjM5MSwzMzkuNDc4IDMzLjM5MSwyNzIuNjk2IDEwMC4xNzQsMjcyLjY5NiAgICAgMTAwLjE3NCwyMzkuMzA0IDMzLjM5MSwyMzkuMzA0IDMzLjM5MSwyMDUuOTEzICAgIiBmaWxsPSIjOTFEQzVBIi8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cG9seWdvbiBwb2ludHM9IjUxMiwyMDUuOTEzIDUxMiwxNzIuNTIyIDQyMi45NTcsMTcyLjUyMiA0MjIuOTU3LDMzOS40NzggNTEyLDMzOS40NzggNTEyLDMwNi4wODcgNDU2LjM0OCwzMDYuMDg3ICAgICA0NTYuMzQ4LDI3Mi42OTYgNTEyLDI3Mi42OTYgNTEyLDIzOS4zMDQgNDU2LjM0OCwyMzkuMzA0IDQ1Ni4zNDgsMjA1LjkxMyAgICIgZmlsbD0iIzkxREM1QSIvPgoJPC9nPgo8L2c+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTEzMy41NjUsMTcyLjUyMnYxNjYuOTU3aDMzLjM5MXYtNjYuNzgzaDMzLjM5MXYzMy4zOTFoMzMuMzkxdi0zMy4zOTFIMjU2VjE3Mi41MjJIMTMzLjU2NXogTTIyMi42MDksMjM5LjMwNGgtNTUuNjUyICAgIHYtMzMuMzkxaDU1LjY1MlYyMzkuMzA0eiIgZmlsbD0iIzkxREM1QSIvPgoJPC9nPgo8L2c+CjxnPgoJPGc+CgkJPHJlY3QgeD0iMjMzLjczOSIgeT0iMzA2LjA4NyIgd2lkdGg9IjMzLjM5MSIgaGVpZ2h0PSIzMy4zOTEiIGZpbGw9IiM5MURDNUEiLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K);
+    }
+
+    .pline tr:nth-child(2)>td:nth-child(1) img[title='Золотая раздача'] {
+        content: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDQ0IDQ0IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA0NCA0NCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCI+CiAgPHBhdGggZD0ibTIyLDBjLTEyLjIsMC0yMiw5LjgtMjIsMjJzOS44LDIyIDIyLDIyIDIyLTkuOCAyMi0yMi05LjgtMjItMjItMjJ6bTEyLjcsMTUuMWwwLDAtMTYsMTYuNmMtMC4yLDAuMi0wLjQsMC4zLTAuNywwLjMtMC4zLDAtMC42LTAuMS0wLjctMC4zbC03LjgtOC40LS4yLS4yYy0wLjItMC4yLTAuMy0wLjUtMC4zLTAuN3MwLjEtMC41IDAuMy0wLjdsMS40LTEuNGMwLjQtMC40IDEtMC40IDEuNCwwbC4xLC4xIDUuNSw1LjljMC4yLDAuMiAwLjUsMC4yIDAuNywwbDEzLjQtMTMuOWgwLjFjMC40LTAuNCAxLTAuNCAxLjQsMGwxLjQsMS40YzAuNCwwLjMgMC40LDAuOSAwLDEuM3oiIGZpbGw9IiNGRkRBNDQiLz4KPC9zdmc+Cg==);
+    }
+
+    .nav {
+        color: #AAA;
     }
