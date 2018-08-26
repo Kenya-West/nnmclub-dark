@@ -1,0 +1,57 @@
+/*
+ * Applies to:
+ * http://nnm-club.me/forum/search.php
+ * http://nnm-club.to/forum/search.php
+ * http://nnm-club.name/forum/search.php
+ * http://nnm-club.tv/forum/search.php
+ * https://nnm-club.me/forum/search.php
+ * https://nnm-club.to/forum/search.php
+ * https://nnm-club.name/forum/search.php
+ * https://nnm-club.tv/forum/search.php
+ * http://nnmclub.me/forum/search.php
+ * http://nnmclub.to/forum/search.php
+ * http://nnmclub.name/forum/search.php
+ * http://nnmclub.tv/forum/search.php
+ * https://nnmclub.me/forum/search.php
+ * https://nnmclub.to/forum/search.php
+ * https://nnmclub.name/forum/search.php
+ * https://nnmclub.tv/forum/search.php
+ * Scope for styles: URLs that start with
+*/
+
+.thHead,
+td.cat,
+td.catHead,
+td.catSides,
+td.catLeft,
+td.catRight,
+td.catBottom {
+    background-image: none;
+    background-color: #222;
+}
+
+td.row1,
+.row1,
+td.row2,
+.row2,
+td.row3,
+.row3 {
+    background-color: #222;
+}
+
+th,
+.top {
+    color: inherit;
+    background-image: none;
+}
+
+a.topictitle:visited,
+a.topictitle:link,
+a.link,
+.postdetails {
+    color: #CCC;
+}
+
+.topictitle {
+    color: #FFF;
+}
