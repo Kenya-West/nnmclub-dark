@@ -722,3 +722,7 @@ img.pims {
 .nav {
     color: #AAA;
 }
+
+.copyright::after {
+    content: " | Dark theme by Kenya-West. See more at https://userstyles.org/users/381480";
+}
