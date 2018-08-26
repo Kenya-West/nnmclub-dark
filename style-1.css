@@ -1,3 +1,16 @@
+/*
+ * Applies to:
+ * http://nnm-club.me/forum/tracker.php
+ * http://nnm-club.to/forum/tracker.php
+ * http://nnm-club.name/forum/tracker.php
+ * http://nnm-club.tv/forum/tracker.php
+ * https://nnm-club.me/forum/tracker.php
+ * https://nnm-club.to/forum/tracker.php
+ * https://nnm-club.name/forum/tracker.php
+ * https://nnm-club.tv/forum/tracker.php
+ * Scope for styles: URLs that start with
+*/
+
 a.topictitle:link {
     text-decoration: none;
     color: #AAA;

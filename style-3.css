@@ -1,3 +1,16 @@
+/*
+ * Applies to:
+ * http://nnm-club.me/forum/viewtopic.php
+ * http://nnm-club.to/forum/viewtopic.php
+ * http://nnm-club.name/forum/viewtopic.php
+ * http://nnm-club.tv/forum/viewtopic.php
+ * https://nnm-club.me/forum/viewtopic.php
+ * https://nnm-club.to/forum/viewtopic.php
+ * https://nnm-club.name/forum/viewtopic.php
+ * https://nnm-club.tv/forum/viewtopic.php
+ * Scope for styles: URLs that start with
+*/
+
 table[width='100%'][cellspacing='2'][cellpadding='2']:first-of-type {
     background-color: #060606;
     vertical-align: middle;
